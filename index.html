@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人博客</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #333; }
+        .post { border-bottom: 1px solid #eee; padding: 20px 0; }
+        img { max-width: 100%; height: auto; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的个人博客</h1>
+    
+    <div class="post">
+        <h2>我的第一篇博客</h2>
+        <p>这是我的第一篇博客文章，欢迎大家访问！</p>
+        
+        <!-- 绝对路径引用图片 -->
+        <img src="https://via.placeholder.com/600x300/4CAF50/ffffff?text=绝对路径图片" alt="绝对路径图片">
+        <p><small>↑ 这是绝对路径引用的图片（http://...）</small></p>
+        
+        <!-- 相对路径引用图片 -->
+        <img src="images/1.jpg" alt="相对路径图片">
+        <p><small>↑ 这是相对路径引用的图片（images/1.jpg）</small></p>
+    </div>
+</body>
+</html>
